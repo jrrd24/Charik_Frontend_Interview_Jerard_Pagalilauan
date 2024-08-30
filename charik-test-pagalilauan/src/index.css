@@ -80,6 +80,18 @@ img {
   display: none
 }
 
+/* For curve transitions*/
+.spacer {
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.orange-wave {
+  background-image: url('/public//assets/waves/orange-wave.svg');
+}
 
 @media only screen and (max-width: 1200px) {
 

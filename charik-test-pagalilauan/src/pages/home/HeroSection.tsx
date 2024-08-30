@@ -2,7 +2,7 @@ import GradientButton from "../../components/buttons/GradientButton";
 
 const HeroSection = () => {
   return (
-    <section className="hero flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between pb-16 lg:pb-0 min-h-[calc(100dvh-100px)]">
+    <section className="container flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between pb-16 lg:pb-0 min-h-[calc(100dvh-100px)]">
       <div className="flex flex-col gap-6 items-center lg:items-start">
         <div className="flex flex-col lg:text-left text-center gap-2">
           <h4 className="text-xl lg:text-3xl text-custom-text/80 font-medium">

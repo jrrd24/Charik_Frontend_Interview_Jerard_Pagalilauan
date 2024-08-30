@@ -3,7 +3,7 @@ import FeatureContainer from "./FeatureContainer";
 
 const KeyFeatures = () => {
   return (
-    <section className="key-features py-24 grid grid-cols-1 lg:grid-cols-3 lg:max-h-[calc(100dvh-80px)] lg:overflow-auto gap-y-16 lg:gap-16">
+    <section className="container key-features mt-24 grid grid-cols-1 lg:grid-cols-3 lg:max-h-[calc(100dvh-80px)] lg:overflow-auto gap-y-16 lg:gap-16">
       <div
         className=" text-left flex flex-col items-center
         lg:sticky lg:top-0 lg:self-start  lg:max-h-[calc(100dvh-80px)] "
@@ -19,7 +19,7 @@ const KeyFeatures = () => {
         </p>
       </div>
 
-      <div className="col-span-2 text-center grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <div className="col-span-2 text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
         {KEY_FEATURES_DATA.map((data) => (
           <FeatureContainer
             key={data.id}

@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className=" w-[0.1rem] h-8 bg-custom-text/20 hidden lg:block" />
           <div className="flex gap-4 items-center">
             <Link to={"/search"}>
-              <Icon path="assets/icons/search.svg" />
+              <Icon path="assets/icons/search.svg" className="h-6 w-6" />
             </Link>
 
             <GradientButton className="hidden md:block">Demo</GradientButton>

@@ -16,7 +16,10 @@ const Icon = ({
   Icon,
   className,
 }: Props) => {
-  if (!Icon) return <img src={path} className={`h-[${height}] w-[${width}]`} />;
+  if (!Icon)
+    return (
+      <img src={path} className={cn(`h-[${height}] w-[${width}]`, className)} />
+    );
   else return <Icon className={cn(`h-[${height}] w-[${width}]`, className)} />;
 };
 
