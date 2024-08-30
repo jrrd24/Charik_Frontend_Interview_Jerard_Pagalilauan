@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-6 lg:col-span-2 flex flex-col gap-2">
             <FooterAbout />
           </div>
-          <div className="col-span-6  lg:col-span-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="col-span-6  lg:col-span-4 grid grid-cols-1 lg:grid-cols-3 gap-4 select-none">
             {FOOTER_LINKS.map((data) => (
               <div key={data.id} className="flex flex-col gap-2">
                 <FooterLinks
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" border-t-[1px] pt-6 flex lg:justify-between flex-col lg:flex-row gap-8 lg:gap-0">
+        <div className=" border-t-[1px] pt-6 flex lg:justify-between flex-col lg:flex-row gap-8 lg:gap-0 select-none">
           <p className="m-0 text-custom-text/40">
             {`Copyright © ${year} Charik`}{" "}
           </p>

@@ -1,7 +1,11 @@
-type Props = {};
+import HeroSection from "./HeroSection";
 
-const Homepage = (props: Props) => {
-  return <div>Homepage</div>;
+const Homepage = () => {
+  return (
+    <div className="page-start min-h-[calc(100dvh-100px)]">
+      <HeroSection />
+    </div>
+  );
 };
 
 export default Homepage;

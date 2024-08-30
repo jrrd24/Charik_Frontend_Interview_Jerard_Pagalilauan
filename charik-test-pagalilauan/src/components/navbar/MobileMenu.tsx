@@ -72,7 +72,9 @@ const MobileMenu = () => {
           </AccordionItem>
         ))}
         <AccordionItem
-          header={<GradientButton className="block md:hidden" />}
+          header={
+            <GradientButton className="block md:hidden">Demo</GradientButton>
+          }
           className={"py-8"}
         />
       </Accordion>

@@ -5,7 +5,7 @@ type Props = {
   path?: string;
   width?: string;
   height?: string;
-  Icon: IconType;
+  Icon?: IconType;
   className?: string;
 };
 

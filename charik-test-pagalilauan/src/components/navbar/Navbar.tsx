@@ -22,7 +22,7 @@ const Navbar = () => {
               <Icon path="assets/icons/search.svg" />
             </Link>
 
-            <GradientButton className="hidden md:block" />
+            <GradientButton className="hidden md:block">Demo</GradientButton>
             <MenuButton className="block lg:hidden" />
           </div>
         </div>

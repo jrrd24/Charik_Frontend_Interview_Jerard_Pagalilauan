@@ -14,13 +14,13 @@ type Links = {
 const FooterLinks = ({ title, links }: Props) => {
   return (
     <>
-      <h6>{title}</h6>
+      <h6 className=" text-xl lg:text-2xl">{title}</h6>
       <ul className="my-4 text-custom-text/60 flex flex-col gap-2">
         {links.map((link) => (
           <li key={link.id}>
             <Link
               to={link.path}
-              className=" hover:underline hover:decoration-custom-text/60 text-lg"
+              className=" hover:underline hover:decoration-custom-text/60 text-base lg:text-lg"
             >
               {link.title}
             </Link>
