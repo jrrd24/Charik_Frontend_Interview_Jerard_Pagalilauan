@@ -56,6 +56,7 @@ const MobileMenu = () => {
               <Accordion>
                 {content.subitems.map((items) => (
                   <AccordionItem
+                    key={items.id}
                     header={items.title}
                     onClick={() => HandleOnClick(items.path)}
                     className={cn(
