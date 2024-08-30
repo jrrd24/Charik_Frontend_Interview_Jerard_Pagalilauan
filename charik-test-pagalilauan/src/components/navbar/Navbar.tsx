@@ -9,7 +9,7 @@ import GradientButton from "../buttons/GradientButton";
 const Navbar = () => {
   const { setIsChecked } = useMenuToggle();
   return (
-    <nav className=" bg-white w-full flex items-center justify-center lg:flex-row flex-col fixed">
+    <nav className=" z-40 bg-white w-full flex items-center justify-center lg:flex-row flex-col fixed">
       <div className="container py-2 px-4 md:px-8  flex justify-between items-center">
         <Link to={"/"} onClick={() => setIsChecked(false)}>
           <img src="/assets/logo.svg" className="h-14 md:h-16 lg:h-18 w-auto" />
