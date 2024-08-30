@@ -1,0 +1,164 @@
+.hover-underline-animation {
+    position: relative;
+    margin: 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--primary);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.custom-link:hover .hover-underline-animation:after,
+.active .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+/*Custom Menu Button*/
+.menu-button {
+    cursor: pointer;
+    height: 2.25em;
+}
+
+.menu-button input {
+    display: none;
+}
+
+.menu-button svg {
+    height: 2.1em;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+    fill: none;
+    stroke: var(--text);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+    stroke-dasharray: 12 63;
+}
+
+.menu-button input:checked+svg {
+    transform: rotate(-45deg);
+}
+
+.menu-button input:checked+svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+}
+
+#toggleChecker:checked+#togglerLable .checkboxtoggler .line-3 {
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+/* Header Menu for md and below*/
+.header-menu-hidden {
+    height: 0;
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: height ease-out 0.5s
+}
+
+.header-menu-hidden>div {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header-menu>div {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    transition-delay: 0.17s;
+
+}
+
+.header-menu {
+    margin: 0;
+    height: calc(100dvh - 72px);
+    visibility: visible;
+    transition: height ease-in 0.35s
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .header-menu,
+    .header-menu-hidden {
+        display: none;
+        visibility: hidden;
+        ;
+    }
+
+}
+
+
+/*For Mobile Menu Accordion*/
+.accordion {
+    border-top: 1px solid #ccc;
+    margin-top: 1rem;
+}
+
+.item {
+    margin: 0 0 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.itemBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+    border: none;
+}
+
+.itemBtnExpanded {
+    border-bottom: 0.05rem solid var(--gray);
+}
+
+.itemContent {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.itemPanel {
+    padding: 1rem 0;
+    color: var(--);
+}
+
+.chevron {
+    margin-left: auto;
+    transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.itemBtnExpanded .chevron {
+    transform: rotate(180deg);
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .itemBtn {
+        font-size: 1.25rem;
+    }
+}
