@@ -35,9 +35,11 @@ const TestimonyCarousel = () => {
               ))}
             </div>
 
-            <h5 className="text-3xl leading-relaxed">" {data.quote} "</h5>
+            <h5 className="text-xl lg:text-3xl leading-relaxed">
+              " {data.quote} "
+            </h5>
 
-            <div className="flex gap-12 items-center pb-8">
+            <div className="flex gap-8 lg:gap-12 items-center pb-8">
               <div className="relative">
                 <img
                   src={data.userImg}
@@ -52,9 +54,9 @@ const TestimonyCarousel = () => {
               </div>
 
               <div className="text-left">
-                <h6 className="text-lg">{data.name}</h6>
-                <p className="text-base text-white/80 font-light">
-                  {data.position}, {data.company}
+                <h6 className="text-base lg:text-lg">{data.name}</h6>
+                <p className="text-sm lg:text-base text-white/80 font-light">
+                  {data.position}&nbsp; | &nbsp; {data.company}
                 </p>
               </div>
             </div>

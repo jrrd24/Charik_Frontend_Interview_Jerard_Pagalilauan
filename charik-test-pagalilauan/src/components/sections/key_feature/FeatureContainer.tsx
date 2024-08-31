@@ -12,10 +12,10 @@ type Props = {
 
 const FeatureContainer = (props: Props) => {
   return (
-    <div className="h-fit w-full text-left flex flex-col gap-4">
+    <div className="h-fit w-full  flex flex-col gap-4 items-center lg:items-start text-center lg:text-left">
       <div
         className={cn(
-          "h-16 w-16  rounded-full relative flex items-center justify-center",
+          "h-16 w-16  rounded-full relative flex items-center justify-center  max-w-[20rem]",
           props.type == "orange"
             ? "bg-gradient-to-br from-primary to-primary-dark text-white "
             : props.type == "green"

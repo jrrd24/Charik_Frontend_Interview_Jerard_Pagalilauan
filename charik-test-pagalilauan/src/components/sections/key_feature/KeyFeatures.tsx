@@ -8,18 +8,18 @@ const KeyFeatures = () => {
         className=" text-left flex flex-col items-center
         lg:sticky lg:top-0 lg:self-start  lg:max-h-[calc(100dvh-80px)] "
       >
-        <h4 className="text-3xl lg:text-5xl font-bold">
+        <h4 className="text-3xl lg:text-5xl font-bold text-center lg:text-left">
           Discover our Key Features
         </h4>
-        <p className=" text-base pt-4 text-custom-text/60 md:max-w-[48rem]">
+        <p className=" text-base pt-4 text-custom-text/60 md:max-w-[48rem] text-center lg:text-left">
           Our clients save an average of{" "}
-          <span className="text-primary font-bold">8 hours per month</span> by
+          <span className="text-primary font-bold ">8 hours per month</span> by
           connecting Charik to HubSpot, thanks to our advanced features, which
           are often unique at this level of integration with your favorite CRM.
         </p>
       </div>
 
-      <div className="col-span-2 text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+      <div className="col-span-2 text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 justify-center">
         {KEY_FEATURES_DATA.map((data) => (
           <FeatureContainer
             key={data.id}

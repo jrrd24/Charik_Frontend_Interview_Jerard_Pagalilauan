@@ -12,7 +12,10 @@ const NeedDemo = () => {
 
           <button className="bg-white p-3 rounded-lg select-none flex items-center gap-8 md:gap-24 hover:scale-105 transition-all duration-300">
             <div className="flex gap-4">
-              <img className="h-12 w-12 rounded-full bg-slate-200" />
+              <img
+                src="https://www.charik.fr/hs-fs/hubfs/photo-jimmy-profile.jpg?width=660&name=photo-jimmy-profile.jpg"
+                className="h-12 w-12 rounded-full bg-slate-200"
+              />
               <div className="text-left">
                 <h6 className=" text-base md:text-lg  font-medium">
                   How you met Jimmy ?
