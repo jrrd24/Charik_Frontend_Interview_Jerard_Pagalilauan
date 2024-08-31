@@ -4,7 +4,7 @@ const NeedDemo = () => {
   return (
     <>
       <div className="spacer orange-wave" />
-      <div className="pb-64 pt-24 bg-primary w-dvw flex items-center justify-center">
+      <section className="py-24 bg-primary w-dvw flex items-center justify-center">
         <div className="container flex md:flex-row flex-col items-center justify-center gap-[8dvw]">
           <h5 className=" text-white text-4xl md:text-5xl font-medium">
             Need a Demo ?
@@ -31,7 +31,7 @@ const NeedDemo = () => {
             </div>
           </button>
         </div>
-      </div>
+      </section>
     </>
   );
 };

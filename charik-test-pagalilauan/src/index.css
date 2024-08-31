@@ -90,7 +90,11 @@ img {
 }
 
 .orange-wave {
-  background-image: url('/public//assets/waves/orange-wave.svg');
+  background-image: url('/assets/waves/orange-wave.svg');
+}
+
+.black-wave {
+  background-image: url('/assets/waves/black-wave.svg');
 }
 
 @media only screen and (max-width: 1200px) {
