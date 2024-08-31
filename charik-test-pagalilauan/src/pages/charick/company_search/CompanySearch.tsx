@@ -1,12 +1,13 @@
 import Partners from "../../../components/sections/partners/Partners";
 import RequestDemo from "../../../components/sections/request_demo/RequestDemo";
-import EmailFinderHero from "./EmailFinderHero";
+
+import CompanySearchHero from "./CompanySearchHero";
 import Features from "./Features";
 
-const EmailFinder = () => {
+const CompanySearch = () => {
   return (
     <div className="flex flex-col items-center">
-      <EmailFinderHero />
+      <CompanySearchHero />
       <Features />
       <Partners />
       <RequestDemo />
@@ -14,4 +15,4 @@ const EmailFinder = () => {
   );
 };
 
-export default EmailFinder;
+export default CompanySearch;

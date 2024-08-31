@@ -1,0 +1,9 @@
+.carousel {
+    --swiper-navigation-size: 24px;
+    --swiper-navigation-top-offset: 45%;
+    --swiper-navigation-sides-offset: 0%;
+    --swiper-navigation-color: white;
+    --swiper-pagination-color: white;
+    --swiper-pagination-bullet-inactive-color: whitesmoke;
+    --swiper-pagination-bullet-size: 10px;
+}

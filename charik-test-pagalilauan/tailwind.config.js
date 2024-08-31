@@ -7,6 +7,7 @@ export default {
         primary: "#FF7C57",
         "primary-dark": "#F54768",
         secondary: "#37B94C",
+        "secondary-dark": "#008f81",
         tertiary: "#3096E4",
         "custom-text": "#222326",
         "custom-bg": "#FFF5F2",

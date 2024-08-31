@@ -14,7 +14,7 @@ export const NAV_LINKS = [
     subitems: [
       { id: 1, title: "Software 🦚", path: "/software" },
       { id: 2, title: "Email Finder 💌", path: "/email-finder" },
-      { id: 3, title: "Company Search 🔎", path: "/company" },
+      { id: 3, title: "Company Search 🔎", path: "/company-search" },
     ],
   },
 

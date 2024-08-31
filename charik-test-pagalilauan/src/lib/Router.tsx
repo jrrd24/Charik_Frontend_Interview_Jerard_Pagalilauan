@@ -7,6 +7,7 @@ import About from "../pages/about/About";
 import Insights from "../pages/resources/insights/Insights";
 import EmailFinder from "../pages/charick/email_finder/EmailFinder";
 import ErrorPage from "../components/error/ErrorPage";
+import CompanySearch from "../pages/charick/company_search/CompanySearch";
 
 export const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ export const router = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: "*", element: <ErrorPage /> },
-      
+
       {
         path: "/",
         element: <Homepage />,
@@ -25,6 +26,7 @@ export const router = createBrowserRouter([
         element: <Software />,
       },
       { path: "/email-finder", element: <EmailFinder /> },
+      { path: "/company-search", element: <CompanySearch /> },
 
       {
         path: "/pricing",
