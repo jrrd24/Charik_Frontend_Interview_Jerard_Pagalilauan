@@ -1,11 +1,17 @@
-import React from 'react'
+import Partners from "../../../components/sections/partners/Partners";
+import RequestDemo from "../../../components/sections/request_demo/RequestDemo";
+import EmailFinderHero from "./EmailFinderHero";
+import Features from "./Features";
 
-type Props = {}
-
-const EmailFinder = (props: Props) => {
+const EmailFinder = () => {
   return (
-    <div>EmailFinder</div>
-  )
-}
+    <div className="flex flex-col items-center">
+      <EmailFinderHero />
+      <Features />
+      <Partners />
+      <RequestDemo />
+    </div>
+  );
+};
 
-export default EmailFinder
+export default EmailFinder;
