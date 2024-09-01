@@ -1,11 +1,15 @@
-import React from 'react'
+import Blogs from "./Blogs";
+import BlogFilters from "./BlogsFilters";
+import InsightsHero from "./InsightsHero";
 
-type Props = {}
-
-const Insights = (props: Props) => {
+const Insights = () => {
   return (
-    <div>Insights</div>
-  )
-}
+    <div className="flex flex-col items-center">
+      <InsightsHero />
+      <BlogFilters />
+      <Blogs />
+    </div>
+  );
+};
 
-export default Insights
+export default Insights;
