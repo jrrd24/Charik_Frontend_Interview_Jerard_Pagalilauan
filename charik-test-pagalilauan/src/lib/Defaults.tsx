@@ -138,3 +138,5 @@ export const FOOTER_SHORTCUTS = [
   { id: 2, title: "Privacy Policy", path: "/privacy-policy" },
   { id: 3, title: "Support@charik.app", path: "mailto:Support@charik.app" },
 ];
+
+export const DEMO_LINK = "https://www.charik.fr/meetings/jimmy5/demo";

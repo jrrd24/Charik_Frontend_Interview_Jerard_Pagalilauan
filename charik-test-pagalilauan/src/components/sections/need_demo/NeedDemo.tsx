@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import Icon from "../../Icon";
+import { DEMO_LINK } from "../../../lib/Defaults";
 
 const NeedDemo = () => {
   return (
@@ -10,7 +12,10 @@ const NeedDemo = () => {
             Need a Demo ?
           </h5>
 
-          <button className="bg-white p-3 rounded-lg select-none flex items-center gap-8 md:gap-24 hover:scale-105 transition-all duration-300">
+          <Link
+            to={DEMO_LINK}
+            className="bg-white p-3 rounded-lg select-none flex items-center gap-8 md:gap-24 hover:scale-105 transition-all duration-300"
+          >
             <div className="flex gap-4">
               <img
                 src="https://www.charik.fr/hs-fs/hubfs/photo-jimmy-profile.jpg?width=660&name=photo-jimmy-profile.jpg"
@@ -32,7 +37,7 @@ const NeedDemo = () => {
                 className="h-auto w-5 md:w-7"
               />
             </div>
-          </button>
+          </Link>
         </div>
       </section>
     </>

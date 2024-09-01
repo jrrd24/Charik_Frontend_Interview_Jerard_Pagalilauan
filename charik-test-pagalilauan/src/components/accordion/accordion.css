@@ -6,7 +6,7 @@
 .item {
     margin: 0 0 0.5rem;
     padding: 0.5rem 1rem;
-    border-bottom: 0.05rem solid var(--gray);
+
 }
 
 .itemBtn {
@@ -22,7 +22,6 @@
     border: none;
     font-size: 1rem;
     font-weight: 600;
-    color: var(--text-light);
 }
 
 
