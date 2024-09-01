@@ -19,7 +19,7 @@ const TestimonyCarousel = () => {
       navigation={true}
       pagination={{ clickable: true }}
       modules={[Navigation, Pagination]}
-      className="carousel w-full max-w-[40rem] select-none"
+      className="carousel-white w-full max-w-[40rem] select-none"
       loop
     >
       {TESTIMONIES_DATA.map((data) => (

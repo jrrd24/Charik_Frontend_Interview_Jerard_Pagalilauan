@@ -17,9 +17,9 @@ const FeatureContainer = (props: Props) => {
         className={cn(
           "h-16 w-16  rounded-full relative flex items-center justify-center  max-w-[20rem]",
           props.type == "orange"
-            ? "bg-gradient-to-br from-primary to-primary-dark text-white "
+            ? "bg-gradient-orange text-white "
             : props.type == "green"
-            ? "bg-gradient-to-br from-secondary to-secondary-dark text-white "
+            ? "bg-gradient-green text-white "
             : "bg-white text-primary"
         )}
       >
