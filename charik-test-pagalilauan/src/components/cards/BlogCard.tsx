@@ -16,7 +16,7 @@ const BlogCard = ({ image, tag, title, dateCreated, readTime }: Props) => {
         className="max-w-[360px] bg-white rounded-xl flex flex-col shadow-xl shadow-custom-text/5 group hover:scale-105 transition duration-500 min-h-96 "
       >
         <div className="h-[24rem] rounded-t-xl overflow-hidden">
-          {" "}
+          {/**Image */}
           <img
             src={image}
             alt=""
@@ -24,6 +24,7 @@ const BlogCard = ({ image, tag, title, dateCreated, readTime }: Props) => {
           />
         </div>
 
+        {/**Main Text Content */}
         <div className="p-6 text-left flex flex-col gap-4 h-full max-h-[14rem] justify-between ">
           <div className="flex flex-col gap-4">
             <div className="bg-gradient-orange w-fit py-1 px-2 rounded-md text-white text-sm font-semibold">

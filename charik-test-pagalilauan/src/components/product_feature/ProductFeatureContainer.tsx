@@ -13,6 +13,7 @@ type Content = {
   content: string;
 };
 
+/**For Email Finder and Company Search Features*/
 const ProductFeatureContainer = ({ icon, title, content }: Props) => {
   return (
     <div className="bg-white flex flex-col gap-6 p-8 rounded-xl">
