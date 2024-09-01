@@ -38,8 +38,8 @@ export const NAV_LINKS = [
     path: undefined,
     subitems: [
       { id: 1, title: "Insights", path: "/insights" },
-      { id: 2, title: "Knowledge Base", path: "/help" },
-      { id: 3, title: "SPF Tester", path: "/verify" },
+      { id: 2, title: "Knowledge Base", path: "https://www.charik.fr/en/help" },
+      { id: 3, title: "SPF Tester", path: "https://charik.app/verify" },
     ],
   },
 ];
@@ -96,7 +96,11 @@ export const FOOTER_LINKS = [
     title: "Resources",
     links: [
       { id: 1, title: "Read our Blog", path: "/insights" },
-      { id: 2, title: "Partners", path: "/partners-program" },
+      {
+        id: 2,
+        title: "Partners",
+        path: "https://www.charik.fr/partners-program",
+      },
       {
         id: 3,
         title: "Ebooks & Guides",
@@ -110,7 +114,7 @@ export const FOOTER_LINKS = [
       {
         id: 5,
         title: "Knowledge Base",
-        path: "/help",
+        path: "https://www.charik.fr/en/help",
       },
     ],
   },

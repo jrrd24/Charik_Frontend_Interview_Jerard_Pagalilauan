@@ -3,7 +3,7 @@ import TryCharikButton from "../../../components/buttons/TryCharikButton";
 const EmailFinderHero = () => {
   return (
     <section className="container flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between pb-16 lg:pb-0 min-h-[calc(100dvh-100px)]">
-      <div className="flex flex-col gap-6 pt-8 lg:items-start">
+      <div className="flex flex-col gap-6 pt-8 items-center lg:items-start">
         <div className=" text-white font-bold px-4 py-2 border-2 text-base lg:text-lg  rounded-xl bg-secondary w-fit">
           Charik Email Finder
         </div>

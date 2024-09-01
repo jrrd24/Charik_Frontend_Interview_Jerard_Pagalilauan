@@ -12,6 +12,10 @@ export default {
         "custom-text": "#222326",
         "custom-bg": "#FFF5F2",
       },
+      backgroundImage: {
+        "gradient-orange": "linear-gradient(to bottom right, #FF7C57,#F54768 )",
+        "gradient-green": "linear-gradient(to bottom right, #37B94C,#008f81 )",
+      },
     },
   },
   plugins: [],

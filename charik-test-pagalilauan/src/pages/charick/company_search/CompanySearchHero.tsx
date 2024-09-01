@@ -3,7 +3,7 @@ import TryCharikButton from "../../../components/buttons/TryCharikButton";
 const CompanySearchHero = () => {
   return (
     <section className="container flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between pb-16 lg:pb-0 min-h-[calc(100dvh-100px)]">
-      <div className="flex flex-col gap-6 pt-8 lg:items-start">
+      <div className="flex flex-col gap-6 pt-8 items-center lg:items-start">
         <div className=" text-white font-bold px-4 py-2 border-2 text-base lg:text-lg  rounded-xl bg-tertiary w-fit">
           Charik Company Search
         </div>
@@ -32,7 +32,7 @@ const CompanySearchHero = () => {
       </div>
 
       <img
-        src="/assets/email-finder-hero.webp"
+        src="/assets/company-search-hero.webp"
         alt="hero image"
         className="lg:h-[calc(100dvh-12rem)] px-16 py-8 lg:p-0 max-h-[28rem] lg:max-h-[36rem]"
       />

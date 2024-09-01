@@ -25,7 +25,7 @@ const BlogCard = ({ image, tag, title, dateCreated, readTime }: Props) => {
         </div>
 
         <div className="p-6 text-left flex flex-col gap-4">
-          <div className="bg-gradient-to-br from-primary to-primary-dark w-fit py-1 px-2 rounded-md text-white text-sm font-semibold">
+          <div className="bg-gradient-orange w-fit py-1 px-2 rounded-md text-white text-sm font-semibold">
             {tag}
           </div>
 

@@ -24,6 +24,9 @@
   --secondary: #37B94C;
   --tertiary: #3096E4;
   --text: #222326;
+  --text-light: #707070;
+  --gray: #D3D3D4;
+  --gray-bg: #EEEEEE;
 
 }
 
@@ -45,6 +48,10 @@ img {
   display: flex;
   justify-content: center;
   max-width: 100vw;
+}
+
+li::marker {
+  font-size: x-large
 }
 
 
