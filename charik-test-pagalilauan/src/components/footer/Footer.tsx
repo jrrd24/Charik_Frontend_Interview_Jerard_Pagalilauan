@@ -7,6 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-white flex justify-center">
       <div className="container py-16 lg:py-24">
+        {/**Footer About and Link Columns */}
         <div className="grid grid-cols-1 lg:grid-cols-6 gap-12 lg:gap-4 pb-12">
           <div className="col-span-6 lg:col-span-2 flex flex-col gap-2">
             <FooterAbout />
@@ -24,6 +25,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/**Footer Shortcuts and Copyright */}
         <div className=" border-t-[1px] pt-6 flex lg:justify-between flex-col lg:flex-row gap-8 lg:gap-0 select-none">
           <p className="m-0 text-custom-text/40">
             {`Copyright © ${year} Charik`}{" "}

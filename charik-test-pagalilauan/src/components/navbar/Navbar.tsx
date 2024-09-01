@@ -5,6 +5,7 @@ import MenuButton from "./MenuButton";
 import MobileMenu from "./MobileMenu";
 import { useMenuToggle } from "../../lib/stores/NavToggles";
 import GradientButton from "../buttons/GradientButton";
+import { DEMO_LINK } from "../../lib/Defaults";
 
 const Navbar = () => {
   const { setIsChecked } = useMenuToggle();
@@ -22,7 +23,9 @@ const Navbar = () => {
               <Icon path="assets/icons/search.svg" className="h-6 w-6" />
             </Link>
 
-            <GradientButton className="hidden md:block">Demo</GradientButton>
+            <GradientButton className="hidden md:block" path={DEMO_LINK}>
+              Demo
+            </GradientButton>
             <MenuButton className="block lg:hidden" />
           </div>
         </div>

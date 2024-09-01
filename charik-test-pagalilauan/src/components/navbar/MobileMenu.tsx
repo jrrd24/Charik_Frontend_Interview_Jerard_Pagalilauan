@@ -52,6 +52,7 @@ const MobileMenu = () => {
             contentProps={{ className: "itemContent" }}
             panelProps={{ className: `${content.subitems && "itemPanel"}` }}
           >
+            {/**Nested Accordion for links with subitems */}
             {content.subitems && (
               <Accordion>
                 {content.subitems.map((items) => (

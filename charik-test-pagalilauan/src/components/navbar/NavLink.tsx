@@ -21,6 +21,7 @@ const NavLink = ({ title, path, subitems }: NavLink) => {
   const location = useLocation();
   const { pathname } = location;
 
+  /**Navbar Link with children links */
   if (!path && subitems) {
     return (
       <Menu
@@ -61,6 +62,7 @@ const NavLink = ({ title, path, subitems }: NavLink) => {
       </Menu>
     );
   } else {
+    /**Basic Navbar Links */
     return (
       <Link
         to={path || ""}

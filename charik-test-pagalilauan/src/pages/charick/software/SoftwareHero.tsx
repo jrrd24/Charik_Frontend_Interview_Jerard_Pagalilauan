@@ -1,4 +1,5 @@
 import GradientButton from "../../../components/buttons/GradientButton";
+import { DEMO_LINK } from "../../../lib/Defaults";
 
 const SoftwareHero = () => {
   return (
@@ -17,7 +18,9 @@ const SoftwareHero = () => {
           decision more informed. Prepare to redefine what you thought was
           possible with HubSpot CRM.
         </p>
-        <GradientButton className="w-fit text-lg">Live Demo</GradientButton>
+        <GradientButton className="w-fit text-lg" path={DEMO_LINK}>
+          Live Demo
+        </GradientButton>
       </div>
 
       <img

@@ -19,7 +19,7 @@ const AccordionItem = ({ header, ...rest }: Props) => (
         />
       </>
     }
-    className="item"
+    className="item border-b-[1px]"
     buttonProps={{
       className: ({ isEnter }) =>
         `${"itemBtn"} ${isEnter && "itemBtnExpanded"}`,

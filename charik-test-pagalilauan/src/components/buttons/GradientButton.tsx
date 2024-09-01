@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom";
 import { cn } from "../../lib/utils/cn";
 
 type Props = {
   className?: string;
   children: any;
-  onClick?: () => void;
+  path?: string;
   theme?: string;
 };
 
-const GradientButton = ({ className, children, onClick, theme }: Props) => {
+const GradientButton = ({ className, children, path, theme }: Props) => {
   return (
-    <button
-      onClick={onClick}
+    <Link
+      to={path || ""}
       className={cn(
         className || "",
         `${
@@ -19,7 +20,7 @@ const GradientButton = ({ className, children, onClick, theme }: Props) => {
       )}
     >
       {children}
-    </button>
+    </Link>
   );
 };
 

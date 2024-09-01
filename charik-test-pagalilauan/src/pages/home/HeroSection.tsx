@@ -24,7 +24,7 @@ const HeroSection = () => {
           even HubSpot itself.{" "}
           <span className="font-bold text-lg">SAVE TIME, SELL MORE</span>
         </p>
-        <GradientButton className="w-fit text-lg">
+        <GradientButton className="w-fit text-lg" path="/pricing">
           🌟 Discover our Offers
         </GradientButton>
       </div>
