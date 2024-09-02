@@ -5,11 +5,10 @@ _Accomplished in 3 days (August 29 Evening to September 1 Evening)_
 ## Getting Started
 ### Installation
 * Clone Repository
+```
+git clone https://github.com/jrrd24/Charik_Frontend_Interview_Jerard_Pagalilauan.git 
+```
 * Open Project
-* Open charik-test-pagalilauan
-```
- cd charik-test-pagalilauan
-```
 * Install NPM
 ```
 npm install
